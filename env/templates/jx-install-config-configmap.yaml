@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAIUbF1HZmmwUKnp33xPjsrAwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkZjg0NDA3M2ItMDE0Ni00ZGMxLWIwMWEtODYxYjlkZDViMzNk
+    MB4XDTE5MDUyOTE1MTEwNVoXDTI0MDUyNzE2MTEwNVowLzEtMCsGA1UEAxMkZjg0
+    NDA3M2ItMDE0Ni00ZGMxLWIwMWEtODYxYjlkZDViMzNkMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEA6ofVFnpkcAnIYdWMgD8jFUJeuSJmDalrNwAQkUdS
+    UNuG5CpbAKMztMILSykNStwTLEKmIcaLQejqcTGs4TDH8p9CufWuLU1nIwyyszCB
+    ZPPcrXtDDwK+fz+VLIaeK5Z1EFAIIy+tcmgatx7VDxNy0qXYXVqaAryWjxqnVDkX
+    9+WsPQmlk3wNjj/Axs4drsK9o5Oqi90Tk4rjbSchffsIHpD2nIG0D6ky6gwNZ/5H
+    LKQJ9l7nFrvuo+18X4/oObvIfRqIdNxvCVTh9e52X55wiT9kKBQFknN+3g4KcrCW
+    0+m6LKl+nC3vXkhWavQgVbgzY+5siVrBhzN2O0IpfMbjvQIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    Jjk/bHU0mTbpnPArd0hWgUR/RX38R6Mc2zYNjNpXu6MEmpGa8VTCNk+bHYTeo3Ju
+    CFmLiEfOHVdRFXrXqZZEw1rRuNsZ9Eck5eBcI9PDWRWsal3wQ7h+lv860rIqUt6y
+    okGyO7ozpvsaI5duoQQrvEnnSPonwO6/Sk5LKSO1Wfb32te3OqIsjQjzag3dDmJB
+    +Qa84XF/kOJW/QWwGsGmJc/G7i1b4oU4L7aNsG5lGXHqm2SyRzlqjBT+dY0twJzV
+    28NmBDSDnxluydo82kmSDeJWPvHqPaeYcvyonQqn8MyBf+Isg96ZBpr9o5JZYXif
+    a8YmkELrv1Th5PQifdMWLg==
+    -----END CERTIFICATE-----
+  clusterName: jarvis
+  jx-install-version: 2.0.119
+  kubeProvider: gke
+  projectID: jenkinsx-242115
+  region: ""
+  secretsLocation: vault
+  server: https://35.196.192.250
+  systemVaultName: jx-vault-jarvis
+  zone: us-east1-d
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config

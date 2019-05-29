@@ -1,0 +1,4 @@
+auth:
+  git:
+    username: jenkins-oscar
+tillerNamespace: ""
